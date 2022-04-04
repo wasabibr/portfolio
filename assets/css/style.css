@@ -1,0 +1,200 @@
+/* Website pessoal desenvolvido para o processo seletivo da Eject */
+
+/*
+Esse projeto está sendo realizado por Jefferson leandro Ramos de Oliveira, ou, Jefferson Oliveira.
+
+*/
+
+/* importando Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* raiz com declaração de algumas variáveis */
+:root
+{
+    --papaya: #E24E42;
+    --mustard: #E9B000;
+    --mustard-2: #ecbd30;
+    --blush: #EB6E80;
+    --aqua: #62c2c5;
+    --white: #ffffff;
+    --watermelon: #f18832;
+    --grey: #E6E6E6;
+    --grape: #94668f;
+    --eletric: #3cc47c;
+    --warm-yellow: #eac67a;
+    --oliver: #99b162;
+    --fresh: #4abdac;
+}
+
+/* reset */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elementos base */
+
+body
+{
+    background: var(--white);
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+h1
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 .titulo
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.explica
+{
+    font-family: 'Roboto Slab', serif;
+}
+
+header nav a
+{
+    text-decoration: none;
+    color: var(--mustard-2);
+    margin: 5px;
+}
+
+.logo
+{
+    color: var(--mustard-2);
+    font-size: 80px;
+}
+
+.contatos
+{
+    color: var(--watermelon);
+    font-size: 16px;
+}
+
+.m-sociais
+{
+    color: var(--watermelon);
+    font-size: 16px;
+}
+
+header nav a:hover
+{
+    color: #fff;
+}
+
+header div a:hover
+{
+    color: #fff;
+}
+
+.texto-card
+{
+    color: #E24E42;
+}
+
+.corpo-card
+{
+    background: var(--mustard-2);
+}
+
+.slide-texto
+{
+    color: var(--papaya);
+    background: rgba(230, 230, 230, 0.74);
+}
+
+.ss-itens
+{
+    background: var(--watermelon);
+}
+
+.bg-qb-gelo
+{
+    background: url("../img/2022_familia.fw.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.bg-skills
+{
+    background: rgba(203, 177, 245, 0.2);
+}
+
+.bg-forma-itens
+{
+    background: var(--mustard-2);
+}
+
+.bg-skills-itens
+{
+    background: var(--warm-yellow);
+}
+
+.margem-cima
+{
+    padding-top: 100px;
+}
+
+.margem-baixo
+{
+    padding-bottom: 30px;
+}
+
+.ancora-link
+{
+    text-decoration: none;
+    color: var(--mustard-2);
+}
+
+.ancora-link:hover 
+{
+    text-decoration: none;
+    color: var(--papaya);
+}
+
+.ancora-link-contato
+{
+    text-decoration: none;
+}
+
+.ancora-link-contato:hover 
+{
+    text-decoration: none;
+    color: var(--papaya);
+}
+
+.setas-cima
+{
+    color: rgb(107, 107, 107);
+}
+
+.setas-cima:hover
+{
+    color: var(--watermelon);
+}
+
+.corpo-xp
+{
+    background: var(--aqua);
+}
+
+.corpo-xp-edu
+{
+    background: var(--grape);
+}
+
+.xp-div
+{
+    padding: 5px;
+}
+
+
+
